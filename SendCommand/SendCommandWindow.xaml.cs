@@ -1,4 +1,4 @@
-﻿using BilibiliDM_PluginFramework;
+using BilibiliDM_PluginFramework;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Lottery
+namespace SendCommand
 {
-    internal partial class LotteryWindow : Window, INotifyPropertyChanged
+    internal partial class SendCommandWindow : Window, INotifyPropertyChanged
     {
         private Main m;
         private List<DanmakuModel> list = new List<DanmakuModel>();
@@ -28,7 +28,7 @@ namespace Lottery
         }
         private string output = "设置好条件后，启用插件记录弹幕到抽奖池。不启用插件不会记录弹幕";
 
-        internal LotteryWindow(Main main)
+        internal SendCommandWindow(Main main)
         {
             this.m = main;
             InitializeComponent();

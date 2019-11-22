@@ -1,11 +1,11 @@
-﻿<Window x:Class="Lottery.LotteryWindow" x:ClassModifier="internal"
+<Window x:Class="SendCommand.SendCommandWindow" x:ClassModifier="internal"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Lottery"
+        xmlns:local="clr-namespace:SendCommand"
         mc:Ignorable="d"
-        Title="随机抽奖" Height="350" Width="525"
+        Title="指令发送" Height="350" Width="525"
         Closing="Window_Closing">
     <Grid Margin="10">
         <Grid.RowDefinitions>
